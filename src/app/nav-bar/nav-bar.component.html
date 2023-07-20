@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/map">D280 PA</a>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="text"
+          placeholder="Search Country Code"
+          aria-label="Search"
+          [(ngModel)]="query"
+          name="search"
+        />
+        <button class="btn btn-outline-success" (click)="onMouseClick()">
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
