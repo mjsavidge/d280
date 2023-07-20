@@ -8,3 +8,25 @@
   margin-left: 5%;
   font-size: smaller;
 }
+
+path {
+  stroke: white;
+  stroke-width: 0.5;
+}
+
+path:hover {
+  fill: white;
+}
+
+#container {
+  margin-top: 15%;
+  text-align: center;
+}
+
+#element1,
+#element2 {
+  display: inline-block;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+}

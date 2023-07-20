@@ -2062,8 +2062,9 @@
         />
       </svg>
     </div>
-    <div class="col" id="col2">
-      <div class="card" style="width: 30%">
+
+    <div class="col" id="container">
+      <div id="element1" style="width: 30%">
         <div class="card-body">
           <h5>Country Info</h5>
           <ul *ngFor="let item of country">
@@ -2071,7 +2072,7 @@
           </ul>
         </div>
       </div>
-      <div class="card" style="width: 30%">
+      <div id="element2" style="width: 30%">
         <div class="card-body">
           <h5>Searched Country Info</h5>
           <ul *ngFor="let item of searchArr">
